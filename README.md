@@ -16,7 +16,7 @@ This is an OpenGL-based maze game written in C++, where the player navigates a s
 
 ## Controls
 
-- **Arrow Keys**: Move the sphere.
+- **Arrow Keys**: Tilt the board to make the ball roll.
 - **Q/W**: Zoom out/in the camera.
 - **E/R**: Decrease/increase acceleration.
 
