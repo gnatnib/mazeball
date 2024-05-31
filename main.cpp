@@ -1,3 +1,9 @@
+/* Written by
+    Bintang Syafrian Rizal - 24060122120031
+    Hanif Herofa           - 24060122120015
+    Surya Fajar            - 24060122140107
+    Syariful Hanif S.      - 24060122130095
+*/
 #include <math.h>
 #include <stdio.h>
 
