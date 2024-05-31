@@ -5,7 +5,7 @@
 This is an OpenGL-based maze game written in C++, where the player navigates a sphere through a maze using keyboard controls. The project uses the GLUT library for windowing and input management.
 
 ## Demo
-![mazeBall](https://github.com/gnatnib/mazeball/assets/117698972/dfa62844-1dae-4e50-8a4c-78cf47115683)
+<img src="https://github.com/gnatnib/mazeball/assets/117698972/dfa62844-1dae-4e50-8a4c-78cf47115683" alt="mazeBall" width="400" height="300">
 
 ## Features
 
