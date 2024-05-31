@@ -1,6 +1,6 @@
 # Maze Ball
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ Logo" width="100" height="100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ Logo" width="50" height="50">
 
 This is an OpenGL-based maze game written in C++, where the player navigates a sphere through a maze using keyboard controls. The project uses the GLUT library for windowing and input management.
 
@@ -34,18 +34,18 @@ To compile and run the project, you need to have OpenGL and GLUT installed on yo
 
 2. Clone this repository:
     ```sh
-    git clone https://github.com/yourusername/maze-game.git
-    cd maze-game
+    git clone https://github.com/gnatnib/mazeball.git
+    cd mazeball
     ```
 
 3. Compile the code:
     ```sh
-    gcc -o maze_game maze_game.c -lGL -lGLU -lglut -lm
+    gcc -o mazeball main.cpp -lGL -lGLU -lglut -lm
     ```
 
 4. Run the game:
     ```sh
-    ./maze_game
+    ./mazeball
     ```
 
 ### On Windows
@@ -54,16 +54,16 @@ To compile and run the project, you need to have OpenGL and GLUT installed on yo
 2. Install [FreeGLUT](http://freeglut.sourceforge.net/).
 3. Clone this repository:
     ```sh
-    git clone https://github.com/yourusername/maze-game.git
-    cd maze-game
+    git clone https://github.com/gnatnib/mazeball.git
+    cd mazeball
     ```
 4. Compile the code:
     ```sh
-    gcc -o maze_game maze_game.c -lfreeglut -lopengl32 -lglu32 -lm
+    gcc -o mazeball main.cpp -lfreeglut -lopengl32 -lglu32 -lm
     ```
 5. Run the game:
     ```sh
-    maze_game.exe
+    main.cpp
     ```
 
 ### On macOS
@@ -75,27 +75,23 @@ To compile and run the project, you need to have OpenGL and GLUT installed on yo
 
 2. Clone this repository:
     ```sh
-    git clone https://github.com/yourusername/maze-game.git
-    cd maze-game
+    git clone https://github.com/gnatnib/mazeball.git
+    cd mazeball
     ```
 
 3. Compile the code:
     ```sh
-    gcc -o maze_game maze_game.c -framework OpenGL -framework GLUT -lm
+    gcc -o mazeball main.cpp -framework OpenGL -framework GLUT -lm
     ```
 
 4. Run the game:
     ```sh
-    ./maze_game
+    ./mazeball
     ```
 
 ## Code Overview
 
-- **maze_game.c**: The main game file containing all the OpenGL initialization and game logic.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **main.cpp**: The main game file containing all the OpenGL initialization and game logic.
 
 ## Acknowledgements
 
@@ -108,4 +104,4 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 ## Contact
 
-For any inquiries or issues, please contact `your.email@example.com`.
+For any inquiries or issues, please contact `bintang.syafrian@gmail.com`.
