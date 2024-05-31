@@ -1,9 +1,11 @@
 # Maze Ball
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ Logo" width="100" height="100">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/OpenGL_Logo.svg" alt="OpenGL Logo" width="100" height="100">
 
 This is an OpenGL-based maze game written in C++, where the player navigates a sphere through a maze using keyboard controls. The project uses the GLUT library for windowing and input management.
+
+## Demo
+![mazeBall](https://github.com/gnatnib/mazeball/assets/117698972/dfa62844-1dae-4e50-8a4c-78cf47115683)
 
 ## Features
 
